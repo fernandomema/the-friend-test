@@ -23,7 +23,7 @@ export const getRtcProvider = (roomId: string) => {
     //     ],
     //     filterBcConns: false,
     // });
-    const webrtcProvider = new WebsocketProvider("wss://ws-friendstest.servitimo.net", "friends-test-" + roomId, doc);
+    const webrtcProvider = new WebsocketProvider("wss://the-friends-test.vps1.servitimo.net", "friends-test-" + roomId, doc);
 
     const disconnect = () => webrtcProvider.disconnect();
     const connect = () => webrtcProvider.connect();

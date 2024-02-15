@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "server": "cd ~ && HOST=localhost PORT=1234 npx y-websocket"
+    "server": "cd ~ && HOST=0.0.0.0 PORT=1234 npx y-websocket"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
